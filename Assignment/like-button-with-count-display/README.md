@@ -1,8 +1,14 @@
-# React + Vite
+# Problem Statement
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**Objective:** Understand state management in parent-child components.
 
-Currently, two official plugins are available:
+## Instructions:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Create a LikeButton child component with a button labeled "Like".
+
+When clicked, it should increment a like count in the parent component called LikeCounter.
+
+In LikeCounter, display the total like count received from all LikeButton instances.
+
+
+Bonus: Add a “Reset All” button in LikeCounter to reset the total count to zero.
